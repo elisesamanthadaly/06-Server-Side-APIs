@@ -1,7 +1,7 @@
 # 06-Server-Side-APIs
 # Weather Dashboard
 
-This application allows users to search for a city and view current and future weather conditions in that city, and save up to 8 searches to localStorage.
+This application allows users to search for a city and view current and future weather conditions in that city. Up to 8 previous searches are saved to localStorage.
 
 The deployed application can be found [here](https://elisesamanthadaly.github.io/06-Server-Side-APIs/). The application's GitHub repository can be found [here](https://github.com/elisesamanthadaly/06-Server-Side-APIs/).
 
