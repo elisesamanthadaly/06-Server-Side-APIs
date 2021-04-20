@@ -172,7 +172,7 @@ function updateSearchedCities() {
                 // Populate weatherToday fields
                 const fetchedCurrentDate = new Date(data.dt*1000);
                 currentDate.innerHTML = fetchedCurrentDate.toLocaleDateString();
-                currentIcon.src = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+                currentIcon.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
                 currentTemperature.innerHTML = data.main.temp;
                 currentHumidity.innerHTML = data.main.humidity;
                 currentWind.innerHTML = data.wind.speed;
