@@ -235,5 +235,3 @@ function updateSearchedCities() {
 
 // Renders previously saved searches on page load
 updateSearchedCities();
-
-console.log('is my internet really this slow');
