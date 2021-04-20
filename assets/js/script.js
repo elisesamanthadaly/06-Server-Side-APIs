@@ -201,31 +201,31 @@ function updateSearchedCities() {
                         // Populate weatherForecast fields
                         const fetchedDay1Date = new Date(data.daily[1].dt*1000);
                         day1.innerHTML = fetchedDay1Date.toLocaleDateString();
-                        day1Icon.src = `http://openweathermap.org/img/w/${data.daily[1].weather[0].icon}.png`;
+                        day1Icon.src = `https://openweathermap.org/img/w/${data.daily[1].weather[0].icon}.png`;
                         day1Temp.innerHTML = data.daily[1].temp.day;
                         day1Humidity.innerHTML = data.daily[1].humidity;
 
                         const fetchedDay2Date = new Date(data.daily[2].dt*1000);
                         day2.innerHTML = fetchedDay2Date.toLocaleDateString();
-                        day2Icon.src = `http://openweathermap.org/img/w/${data.daily[2].weather[0].icon}.png`;
+                        day2Icon.src = `https://openweathermap.org/img/w/${data.daily[2].weather[0].icon}.png`;
                         day2Temp.innerHTML = data.daily[2].temp.day;
                         day2Humidity.innerHTML = data.daily[2].humidity;
 
                         const fetchedDay3Date = new Date(data.daily[3].dt*1000);
                         day3.innerHTML = fetchedDay3Date.toLocaleDateString();
-                        day3Icon.src = `http://openweathermap.org/img/w/${data.daily[3].weather[0].icon}.png`;
+                        day3Icon.src = `https://openweathermap.org/img/w/${data.daily[3].weather[0].icon}.png`;
                         day3Temp.innerHTML = data.daily[3].temp.day;
                         day3Humidity.innerHTML = data.daily[3].humidity;
                         
                         const fetchedDay4Date = new Date(data.daily[4].dt*1000);
                         day4.innerHTML = fetchedDay4Date.toLocaleDateString();
-                        day4Icon.src = `http://openweathermap.org/img/w/${data.daily[4].weather[0].icon}.png`;
+                        day4Icon.src = `https://openweathermap.org/img/w/${data.daily[4].weather[0].icon}.png`;
                         day4Temp.innerHTML = data.daily[4].temp.day;
                         day4Humidity.innerHTML = data.daily[4].humidity;
 
                         const fetchedDay5Date = new Date(data.daily[5].dt*1000);
                         day5.innerHTML = fetchedDay5Date.toLocaleDateString();
-                        day5Icon.src = `http://openweathermap.org/img/w/${data.daily[5].weather[0].icon}.png`;
+                        day5Icon.src = `https://openweathermap.org/img/w/${data.daily[5].weather[0].icon}.png`;
                         day5Temp.innerHTML = data.daily[5].temp.day;
                         day5Humidity.innerHTML = data.daily[5].humidity;
                     });
