@@ -1,4 +1,4 @@
-# 06-Server-Side-APIs
+# 06 Server-Side APIs
 # Weather Dashboard
 
 This application allows users to search for a city and view current and future weather conditions in that city. Up to 8 previous searches are saved to localStorage.
