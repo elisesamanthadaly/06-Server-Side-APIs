@@ -29,6 +29,10 @@ This application relies on [OpenWeather API](https://openweathermap.org/api/).
 Thank you [Steve Hansell](https://stackoverflow.com/users/171490/steve-hansell/) for the capitalize(); solution.
 
 
+## Contact
+Please email me (elise.samantha.daly@gmail.com) with any questions/concerns about this application!
+
+
 ## License
 
 MIT License
