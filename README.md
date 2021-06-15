@@ -17,6 +17,9 @@ The user can view results for the past 8 searches by clicking the boxes in the l
 ![alt text](./assets/images/screencast.gif)
 
 
+## Technologies Used
+* HTML, CSS, Javascript
+
 ## Credits
 
 This application relies on [OpenWeather API](https://openweathermap.org/api/).
