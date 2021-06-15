@@ -14,10 +14,11 @@ Once a valid city has been searched for, its current and future weather conditio
 
 The user can view results for the past 8 searches by clicking the boxes in the left column.
 
-![alt text](./assets/images/screencast.gif)
+![screencast](./assets/images/screencast.gif)
 
 
 ## Technologies Used
+
 * HTML, CSS, Javascript
 
 
