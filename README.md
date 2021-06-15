@@ -19,7 +19,7 @@ The user can view results for the past 8 searches by clicking the boxes in the l
 
 ## Technologies Used
 
-* HTML, CSS, Javascript
+* Javascript, HTML, CSS
 
 
 ## Credits
